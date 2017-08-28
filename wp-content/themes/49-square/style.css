@@ -54,6 +54,16 @@ Divi Children Engine version: 1.0.4
 
 /*- YOU CAN INCLUDE THE CUSTOM CODE FOR YOUR CHILD THEME BELOW THIS LINE-*/
 
+@font-face {
+	font-family: 'VL Poiret One';
+	src: url('fonts/VLPoiretOne.eot');
+	src: url('fonts/VLPoiretOne.eot?#iefix') format('embedded-opentype'),
+		url('fonts/VLPoiretOne.woff') format('woff'),
+		url('fonts/VLPoiretOne.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /*------------------------------------------------*/
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
