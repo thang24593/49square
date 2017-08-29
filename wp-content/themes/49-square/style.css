@@ -64,6 +64,12 @@ Divi Children Engine version: 1.0.4
 	font-style: normal;
 }
 
+#main-header, #main-header.et-fixed-header {
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
 /*------------------------------------------------*/
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
@@ -91,7 +97,7 @@ Divi Children Engine version: 1.0.4
 /*------------------------------------------------*/
 /*---------------------[FOOTER]-------------------*/
 /*------------------------------------------------*/
-
+#main-footer { display:none; }
 
 
 /*------------------------------------------------*/
@@ -147,6 +153,16 @@ Divi Children Engine version: 1.0.4
 
 /*-------------------[768px]------------------*/
 @media only screen and ( max-width: 980px ) {
+	#page-container {
+		padding-top: 2% !important;
+	}
+	#main-header {
+		display: none;
+	}
+	.responsive-menu-button {
+		top: 20px !important;
+		right: 20px !important;
+	}
 
 	/*-------------------[Portfolio]------------------*/
 	
